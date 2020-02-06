@@ -522,7 +522,7 @@ body {
 
 .purchase-txt {
     margin: 0;
-    ffont-family: 'montserrat', 'Arial', sans-serif;
+    font-family: 'montserrat', 'Arial', sans-serif;
     font-size: 18px;
     line-height: 1.2;
     font-weight: 300;
@@ -553,4 +553,435 @@ body {
 .purchase-btn:active {
     background-color: #998675;
     color: #ffffff;
+}
+
+/*======Projects======*/
+
+.projects {
+    width: 100%;
+    padding: 80px 375px;
+    box-sizing: border-box;
+}
+
+.projects-title {
+    display: block;
+    width: 100%;
+    margin: 0 0 20px;
+    text-align: center;
+    font-family: 'raleway', 'Arial', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    text-transform: capitalize;
+}
+
+.projects-txt {
+    width: 757px;
+    margin: 0 auto 30px;
+    text-align: center;
+    font-family: 'montserrat', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.projects-btn-wrp {
+    width: 605px;
+    margin: 0 auto 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-btn {
+    padding: 5px 25px;
+    font-family: 'montserrat', 'Arial', sans-serif;
+    text-transform: capitalize;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #8c8c8c;
+    border: 1.0px solid #ebebeb;
+    border-radius: 3.0px;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.projects-btn:hover {  
+    color: #ffffff;  
+    background-color: #998675;
+    border: 1.0px solid #998675;
+}
+
+.projects-btn:active {
+    color: #8c8c8c;
+    background-color: transparent;
+    border: 1.0px solid #ebebeb;
+}
+
+.projects-preview-wrp {
+    margin: 0 0 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects-preview {
+    margin: 0 30px 0 0;
+    position: relative;
+}
+
+.projects-preview:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+.projects-preview:nth-of-type(n+4) {
+    margin-top: 30px;
+}
+
+.projects-preview-photo {
+    display: block;
+}
+
+.projects-preview-header {
+    width: 370px;
+    padding: 25px 15px;
+    box-sizing: border-box;
+    background-color: #fbfaf8;
+    position: relative;
+}
+
+.projects-preview-header:before {
+    content: "";
+    display: block;
+    border: 20px solid transparent;	
+    border-bottom: 13px solid #fbfaf8;
+    position: absolute;
+    top: -31px;
+    left: 23px;
+}
+
+.projects-preview-title {
+    display: block;
+    margin: 0 0 5px 0;
+    font-family: 'raleway', 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #c7b299;
+}
+
+.projects-preview-txt {
+    font-family: 'montserrat', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #d1d1d1;
+}
+
+.projects-preview-link {
+    text-decoration: none;
+    display: none;
+    outline: none;
+}
+
+.review-link1 {
+    position: absolute;
+    top: 104px;
+    left: 130px;
+}
+
+.review-link2 {
+    position: absolute;
+    top: 104px;
+    left: 190px;
+}
+
+.projects-preview-link-svg {
+    fill: #ffffff;
+}
+
+.projects-preview:hover .projects-preview-header {
+    background-color: #362f2d;
+}
+
+.projects-preview:hover .projects-preview-header:before {
+    border-bottom: 13px solid #362f2d;
+}
+
+.projects-preview:hover .projects-preview-title {
+    color: #ffffff
+}
+
+.projects-preview:hover .projects-preview-txt {
+    color: #c7b299;
+}
+
+.projects-preview:hover .projects-preview-photo {
+    filter: brightness(40%);
+}
+
+.projects-preview:hover .projects-preview-link {
+    display: block;
+}
+
+ .projects-preview-link:hover .projects-preview-link-svg {
+    fill: #c7b299;
+}
+
+.projects-preview-btn {
+    width: 170px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 40px;
+    background-color: #998675;
+    border-radius: 3px;
+    text-transform: capitalize;
+    font-family: 'raleway', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.projects-preview-btn:hover {
+    background-color: #ffffff;
+    color: #998675;
+    border: 1px solid #998675;
+}
+
+.projects-preview-btn:active {
+    background-color: #998675;
+    color: #ffffff;
+    border: 1px solid transparent;
+}
+
+/*======Video-section======*/
+
+.video-section {
+    width: 100%;
+    min-height: 705px;
+    position: relative;
+}
+
+.video {
+    display: block;
+    width: 100%;
+    height: 705px;
+}
+
+.video-content {
+    width: 552px;
+    text-align: center;
+    position: absolute;
+    top: 210px;
+    left: 685px;
+}
+
+.video-btn {
+    margin: 0 0 44px 0;
+    padding: 0;
+    border-radius: 50%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.video-btn-svg {
+    fill: #ffffff;
+}
+
+.video-btn:hover .video-btn-svg {
+    fill: #c7b299;
+}
+
+.video-btn:active .video-btn-svg {
+    fill: #ffffff;
+}
+
+.video-title {
+    margin: 0 0 25px 0;
+    display: block;
+    font-family: 'raleway', 'Arial', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.video-txt {
+    margin: 0 0 35px 0;
+    font-family: 'montserrat', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.video-time {
+    font-family: 'montserrat', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #c7b299;
+}
+
+/*======Formobile======*/
+
+.formobile {
+    width: 100%;
+    background-color: #fbfaf8;
+    padding: 79px 0 0 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.formobile-photo {
+    display: block;
+    margin: 0 30px 0 0;
+    width: 423px;
+    height: 616px;
+}
+
+.formobile-content {
+    width: 657px;
+}
+
+.formobile-title {
+    display: block;
+    margin: 116px 0 40px 0;
+    font-family: 'raleway', 'Arial', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.formobile-txt {
+    margin: 0 0 45px 0;
+    font-family: 'montserrat', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.formobile-detail {
+    margin: 0 0 0 100px;
+}
+
+.formobile-detail-title {
+    font-family: 'montserrat', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #8c8c8c;
+    list-style: none;
+    outline: none;
+    position: relative;
+}
+
+.formobile-detail-title::-webkit-details-marker {
+    display: none
+}
+
+.formobile-detail-title:before {
+    content: ">";
+    display: block;
+    width: 21px;
+    height: 21px;
+    background-color: #c7b299;
+    color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 21px;
+    position: absolute;
+    top: 5px;
+    left: -40px;
+}
+
+.formobile-detail-txt {
+    margin: 10px 0;
+    font-family: 'montserrat', 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+/*======Statistics======*/
+
+.statistics {
+    width: 100%;
+    padding: 69px 0 60px 0;
+    box-sizing: border-box;
+    background-image: url('../img/statistics_bg.jpg');
+    display: flex;
+    justify-content: center;
+}
+
+.statistics-block {
+    width: 135px;
+    text-align: center;
+    margin: 0 100px 0 0;
+}
+
+.statistics-block:last-of-type {
+    margin: 0;
+}
+
+.statistics-block:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.statistics-svg {
+    display: block;
+    margin: 0 auto 30px;
+    fill: #ffffff;
+}
+
+.statistics-value {
+    display: block;
+    margin: 0 0 20px 0;
+    font-family: 'montserrat', 'Arial', sans-serif;
+    font-size: 48px;
+    line-height: 36px;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.statistics-txt {
+    display: block;
+    margin: 0 0 30px 0;
+    font-family: 'montserrat', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.statistics-block:hover .statistics-svg {
+    fill: #c7b299;
+}
+
+.statistics-block:hover .statistics-txt {
+    color: #c7b299;
+}
+
+.statistics-block:hover:after {
+    background-color: #c7b299;
 }
