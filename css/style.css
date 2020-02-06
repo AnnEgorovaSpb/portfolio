@@ -1,3 +1,102 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/monserrat/montserrat-extralight.eot');
+    src: url('../fonts/monserrat/montserrat-extralight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/monserrat/montserrat-extralight.woff2') format('woff2'),
+         url('../fonts/monserrat/montserrat-extralight.woff') format('woff'),
+         url('../fonts/monserrat/montserrat-extralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/monserrat/montserrat-light.eot');
+    src: url('../fonts/monserrat/montserrat-light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/monserrat/montserrat-light.woff2') format('woff2'),
+         url('../fonts/monserrat/montserrat-light.woff') format('woff'),
+         url('../fonts/monserrat/montserrat-light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('../fonts/monserrat/montserrat-regular.eot');
+    src: url('../fonts/monserrat/montserrat-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/monserrat/montserrat-regular.woff2') format('woff2'),
+         url('../fonts/monserrat/montserrat-regular.woff') format('woff'),
+         url('../fonts/monserrat/montserrat-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway/raleway-regular.eot');
+    src: url('../fonts/raleway/raleway-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway/raleway-regular.woff2') format('woff2'),
+         url('../fonts/raleway/raleway-regular.woff') format('woff'),
+         url('../fonts/raleway/raleway-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway/raleway-medium.eot');
+    src: url('../fonts/raleway/raleway-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway/raleway-medium.woff2') format('woff2'),
+         url('../fonts/raleway/raleway-medium.woff') format('woff'),
+         url('../fonts/raleway/raleway-medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway/raleway-semibold.eot');
+    src: url('../fonts/raleway/raleway-semibold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway/raleway-semibold.woff2') format('woff2'),
+         url('../fonts/raleway/raleway-semibold.woff') format('woff'),
+         url('../fonts/raleway/raleway-semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway/raleway-bold.eot');
+    src: url('../fonts/raleway/raleway-bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway/raleway-bold.woff2') format('woff2'),
+         url('../fonts/raleway/raleway-bold.woff') format('woff'),
+         url('../fonts/raleway/raleway-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway/raleway-extrabold.eot');
+    src: url('../fonts/raleway/raleway-extrabold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway/raleway-extrabold.woff2') format('woff2'),
+         url('../fonts/raleway/raleway-extrabold.woff') format('woff'),
+         url('../fonts/raleway/raleway-extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/roboto/roboto-regular.eot');
+    src: url('../fonts/roboto/roboto-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/roboto-regular.woff2') format('woff2'),
+         url('../fonts/roboto/roboto-regular.woff') format('woff'),
+         url('../fonts/roboto/roboto-regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
     margin: 0;
 }
@@ -50,7 +149,7 @@ body {
 }
 
 .logo-txt {
-    font-family: Raleway, arial, sans-serif;
+    font-family: 'raleway', 'Arial', sans-serif;
     font-size: 34px;
     line-height: 1.2;
     font-weight: 400;
@@ -61,7 +160,7 @@ body {
     margin: 0 30px 0 0;
     text-decoration: none;
     text-transform: capitalize;
-    font-family: Montserrat;
+    font-family: 'montserrat', 'Arial', sans-serif;
     font-size: 14px;
     line-height: 1.2;
     font-weight: 300;
@@ -138,7 +237,6 @@ body {
 .main-header-slider {
     min-height: 603px;
     color: #ffffff;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -190,7 +288,7 @@ body {
 .content-span {
     display: block;
     margin: 0 0 10px 0;
-    font-family: Raleway, arial, sans-serif;
+    font-family: 'raleway', 'Arial', sans-serif;
     font-size: 36px;
     line-height: 1.2;
     font-weight: 500;
@@ -198,7 +296,7 @@ body {
 
 .content-title {
     margin: 0 0 15px 0;
-    font-family: Raleway, arial, sans-serif;
+    font-family: 'raleway', 'Arial', sans-serif;
     font-size: 52px;
     line-height: 1.2;
     font-weight: 800;
@@ -206,7 +304,7 @@ body {
 
 .content-txt {
     margin: 0 0 52px 0;
-    font-family: Montserrat, arial, sans-serif;
+    font-family: 'montserrat', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 300;
@@ -218,7 +316,7 @@ body {
     background-color: #998675;
     border: 1px solid transparent;
     border-radius: 5px;
-    font-family: Raleway, arial, sans-serif;
+    font-family: 'raleway', 'Arial', sans-serif;
     font-size: 14px;
     line-height: 23px;
     font-weight: 800;
@@ -314,7 +412,7 @@ body {
     display: block;
     width: 100%;
     margin: 0 0 20px 0;
-    font-family: Raleway, arial, sans-serif;
+    font-family: 'raleway', 'Arial', sans-serif;
     font-size: 22px;
     line-height: 1.2;
     font-weight: 600;
@@ -329,6 +427,11 @@ body {
 .service-txt {
     margin: 0 0 30px 0;
     text-align: center;
+    font-family: 'montserrat', 'Arial', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #8c8c8c;
 }
 
 /*===Ideas===*/
@@ -345,7 +448,7 @@ body {
     width: 100%;
     margin: 0 0 24px 0;
     text-align: center;
-    font-family: Raleway, arial, sans-serif;
+    font-family: 'raleway', 'Arial', sans-serif;
     font-size: 30px;
     line-height: 1.2;
     font-weight: 600;
@@ -356,7 +459,7 @@ body {
     width: 770px;
     margin: 0 auto 40px;
     text-align: center;
-    font-family: Montserrat, arial, sans-serif;
+    font-family: 'montserrat', 'Arial', sans-serif;
     font-size: 16px;
     line-height: 28px;
     font-weight: 300;
@@ -409,7 +512,7 @@ body {
 .purchase-title {
     display: block;
     margin: 0 0 8px 0;
-    font-family: Raleway, arial, sans-serif;
+    font-family: 'raleway', 'Arial', sans-serif;
     font-size: 28px;
     line-height: 1.2;
     font-weight: 400;
@@ -419,7 +522,7 @@ body {
 
 .purchase-txt {
     margin: 0;
-    font-family: Montserrat, arial, sans-serif;
+    ffont-family: 'montserrat', 'Arial', sans-serif;
     font-size: 18px;
     line-height: 1.2;
     font-weight: 300;
@@ -432,7 +535,7 @@ body {
     background-color: #998675;
     border: 1px solid transparent;
     border-radius: 5px;
-    font-family: Raleway, arial, sans-serif;
+    font-family: 'raleway', 'Arial', sans-serif;
     font-size: 14px;
     line-height: 23px;
     font-weight: 800;
