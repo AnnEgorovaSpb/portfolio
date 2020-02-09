@@ -595,7 +595,7 @@ body {
 }
 
 .projects-btn {
-    padding: 5px 25px;
+    padding: 2px 25px;
     font-family: 'montserrat', 'Arial', sans-serif;
     text-transform: capitalize;
     font-size: 14px;
@@ -644,7 +644,7 @@ body {
     display: block;
 }
 
-.projects-preview-header {
+.projects-preview-block {
     width: 370px;
     padding: 25px 15px;
     box-sizing: border-box;
@@ -652,7 +652,7 @@ body {
     position: relative;
 }
 
-.projects-preview-header:before {
+.projects-preview-block:before {
     content: "";
     display: block;
     border: 20px solid transparent;	
@@ -702,11 +702,11 @@ body {
     fill: #ffffff;
 }
 
-.projects-preview:hover .projects-preview-header {
+.projects-preview:hover .projects-preview-block {
     background-color: #362f2d;
 }
 
-.projects-preview:hover .projects-preview-header:before {
+.projects-preview:hover .projects-preview-block:before {
     border-bottom: 13px solid #362f2d;
 }
 
