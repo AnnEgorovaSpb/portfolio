@@ -237,6 +237,10 @@ body {
     border-radius: 5px;
 }
 
+.main-header-search-svg:hover {
+    fill: #b8a58f
+}
+
 /*===Slider===*/
 
 .main-header-slider {
